@@ -1,7 +1,5 @@
-pragma solidity ^0.8.0;
-
-import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
-
+pragma solidity 0.6.12;
+import "/home/abims/Public/AuditTest/lib/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
 
 contract MockGovToken is BEP20("MockGovToken", "MGToken") {
     function mint(address _to, uint256 _amount) public onlyOwner {
