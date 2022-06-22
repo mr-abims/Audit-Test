@@ -4,3 +4,11 @@
 [submodule "lib/solmate"]
 	path = lib/solmate
 	url = https://github.com/Rari-Capital/solmate
+
+[submodule "lib/pancakeswap-lib"]
+	path = lib/pancakeswap-lib
+	url = https://github.com/pancakeswap/pancake-swap-lib
+
+[submodule "lib/pancake-swap-lib"]
+	path = lib/pancake-swap-lib
+	url = https://github.com/pancakeswap/pancake-swap-lib
